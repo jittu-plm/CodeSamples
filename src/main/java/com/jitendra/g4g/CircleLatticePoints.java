@@ -3,6 +3,10 @@ package com.jitendra.g4g;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+* lattice point - addition of squares of 2 numbers, should be equal to square of a number
+* for eg, lattice points for 5 - {5,5}, {5,-5}, {-5,5}, {-5,-5}, {4,3}, {4,-3}, {-4,3}, {-4,-3}
+*/
 public class CircleLatticePoints {
 
     public static void main(String[] args) {
