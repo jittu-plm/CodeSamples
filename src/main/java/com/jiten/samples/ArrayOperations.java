@@ -28,7 +28,7 @@ public class ArrayOperations {
     }
 
     /**
-     * return numbers, who can make target by addition
+     * return 2 numbers, whose addition would make the target number
      * @param nums
      * @param target
      * @return
