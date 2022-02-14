@@ -9,7 +9,7 @@ public class FinraTest {
     //ma a
 
     public static void main(String[] args) {
-        System.out.println(FinraTest.isPalindram("apple"));
+        System.out.println(FinraTest.isPalindram("madam"));
     }
 
     public  static boolean isPalindram(String input){ //amma

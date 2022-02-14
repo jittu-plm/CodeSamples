@@ -3,7 +3,7 @@ package com.jiten.samples;
 public class GliderTests {
 
 	public static void main(String[] args) {
-		String s = "acba";
+		String s = "abffb";
 		int i = findCharToGetPalindram(s);
 		if(i >= 0)
 		System.out.println("c = " + s.charAt(i));

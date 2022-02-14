@@ -40,8 +40,8 @@ package com.jitendra.karat;
 // n: number of domains in the input
 // (subdomains within a domain are constant)
 
-import java.io.*;
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
 
 public class DomainSearchCounter {
 

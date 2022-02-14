@@ -6,7 +6,7 @@ import java.util.List;
 public class BalanceStrings {
 
 	public static void main(String[] args) {
-		List<String> list = findBalancedSubStrings("RLLLLRRRLR");
+		List<String> list = findBalancedSubStrings("RLLLLRRLLR");
 		list.forEach(s -> System.out.println(s));
 
 	}

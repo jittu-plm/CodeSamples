@@ -16,13 +16,12 @@ public class Median {
 
     public static void main(String[] args) {
         Median median = new Median();
-        int[] first = new int[] {3}; //{1,2} {}
-        int[] second = new int[] {-2,-1}; //{3,4} {3}
+        int[] first = new int[] {};//{1,2};//{3}; //{1,2} {}
+        int[] second = new int[] {3};//{-2,-1}; //{3,4} {3}
         System.out.println("Median = " + median.findMedianSortedArrays(first, second));
     }
 
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-
         List<Integer> firstList = Arrays.stream( nums1 ).boxed().collect( Collectors.toList() );
         List<Integer> secondList = Arrays.stream( nums2 ).boxed().collect( Collectors.toList() );
         firstList.addAll(secondList);

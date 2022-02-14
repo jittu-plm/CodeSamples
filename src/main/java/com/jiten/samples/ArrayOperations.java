@@ -101,10 +101,10 @@ public class ArrayOperations {
      * @return
      */
     private static int secondMax(int[] a) {
-    	int first = 0, second = 0;
-    	first = second = 0; //3
+    	int first = a[0], second = 0;
+//    	first = second = 0; //3
     	
-    	for (int i = 0; i < a.length; i++) {
+    	for (int i = 1; i < a.length; i++) {
 			if(a[i] > first) {
 				second = first;
 				first = a[i];
@@ -114,6 +114,7 @@ public class ArrayOperations {
 				second = a[i];
 			}
 		}
+    	System.out.println(first + ":" + second);
     	return second;
     }
     

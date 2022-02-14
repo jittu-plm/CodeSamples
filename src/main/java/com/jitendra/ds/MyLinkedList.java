@@ -73,6 +73,11 @@ public class MyLinkedList {
         return temp;
     }
 
+    /**
+     * check if the list is circular linked list
+     * @param head
+     * @return
+     */
     static  boolean checkCircular(Node head){
         Node fast = head;
         Node slow = head;
