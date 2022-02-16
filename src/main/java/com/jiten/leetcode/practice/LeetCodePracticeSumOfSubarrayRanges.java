@@ -54,7 +54,7 @@
  * Need to write some optimized solution
  */
 
-package com.jiten.samples;
+package com.jiten.leetcode.practice;
 
 import java.util.Arrays;
 import java.util.Collections;
