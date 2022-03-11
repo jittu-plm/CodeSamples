@@ -2,7 +2,7 @@ package com.jiten.samples;
 
 public class BubbleSort {
 	/**
-	 * bubble sort
+	 * bubble sort - using recursion
 	 * @param args
 	 */
 
